@@ -4,7 +4,6 @@ function makeid(length) {
     const charactersLength = characters.length;
     for (let i = 0; i < length; i++) {
       result += characters.charAt(Math.floor(Math.random() * charactersLength));
-      counter += 1;
     }
     return result;
 }
