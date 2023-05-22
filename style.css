@@ -1,0 +1,53 @@
+html {
+    background-color: black;
+}
+#title {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+    border-bottom: 3px solid #2f00ed;
+}
+#character-count{
+    background-color: #434343;
+    margin: 12px 0px 12px 0px;
+    width: 130px;
+    color: #ffffff;
+    outline: none;
+    border-radius: 4px;
+    border: 3px solid #2e2e2e;
+}
+#gen {
+    background-color: #2f00ed;
+    padding: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    width: 90px;
+    cursor: pointer;
+}
+#gen:hover {
+    background-color: #2a00d4;
+}
+#pass {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+#copy {
+    background-color: #2f00ed;
+    padding: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    width: 90px;
+    cursor: pointer;
+}
+#copy:hover {
+    background-color: #2a00d4;
+}
